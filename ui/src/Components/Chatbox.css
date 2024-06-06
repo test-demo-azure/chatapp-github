@@ -1,0 +1,36 @@
+.left {
+    display: flex;
+    justify-content: "flex-start";
+}
+
+.right {
+    display: flex;
+    justify-content: "flex-end"
+}
+
+/* width: "100%", display: "flex", justifyContent: "flex-end" */
+
+
+/*
+CHAT
+*/
+
+.Chat {
+    color: black;
+    width: 100vw;
+
+}
+
+.join {
+    margin-left: 250px;
+    padding-left: 50px;
+    /* margin-top: 60px; */
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.enter {
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  backend:
+    image: testdemoazure/chatapp:backend-1.1
+    container_name: backend
+    ports:
+      - 8000:8000
+  ui:
+    image: testdemoazure/chatapp:ui-1.0
+    container_name: ui
+    ports:
+      - 3000:3000      
+
